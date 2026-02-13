@@ -6,7 +6,7 @@ export EDITOR=vi
 
 # Aliases
 alias groot="cd ~/gitroot"
-alias ls="ls -lh"
+alias ls="ls -lha"
 
 # Homebrew stuff
 export PATH=$HOME/homebrew/bin:$PATH
