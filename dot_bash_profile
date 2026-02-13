@@ -1,0 +1,21 @@
+# Global stuff
+export PATH=$HOME/bin:$PATH
+export EDITOR=vi
+
+# Aliases
+alias groot="cd ~/gitroot"
+alias ls="ls -lh"
+
+# Homebrew stuff
+export PATH=$HOME/homebrew/bin:$PATH
+
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/Users/davidstanke/homebrew/opt/nvm/nvm.sh" ] && \. "/Users/davidstanke/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/Users/davidstanke/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/Users/davidstanke/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
+
+# Added by Antigravity
+export PATH="/Users/davidstanke/.antigravity/antigravity/bin:$PATH"
+export PATH="/Users/davidstanke/homebrew/opt/libpq/bin:$PATH"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
