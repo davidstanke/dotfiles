@@ -1,3 +1,5 @@
+### Recommended: manage this file using a util like chezmoi (using github.com/davidstanke/dotfiles as source)
+
 # Global stuff
 export PATH=$HOME/bin:$PATH
 export EDITOR=vi
